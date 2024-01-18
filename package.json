@@ -1,0 +1,27 @@
+{
+  "name": "@byunmaster/image-preloader",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Preload images using Shadow DOM",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "rm -rf dist && tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byunmaster/image-preloader.git"
+  },
+  "keywords": [
+    "image preload"
+  ],
+  "author": "byunmaster",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byunmaster/image-preloader/issues"
+  },
+  "homepage": "https://github.com/byunmaster/image-preloader#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
